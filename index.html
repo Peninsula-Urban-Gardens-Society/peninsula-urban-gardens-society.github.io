@@ -15,7 +15,6 @@
   <body vocab="http://schema.org/" typeof="WebPage">
     <header data-ajax-replace="content/nav.html" role="banner"></header>
 
-
     <main property="mainContentOfPage" class="container">
       <h2>Welcome to the Peninsula Urban Gardens Society</h2>
       <p>
@@ -39,12 +38,20 @@
       </p>
     </main>
 
-    <footer class="container" data-ajax-replace="content/footer.html" role="footer">
-    </footer>
+    <section
+      id="important-links"
+      class="panel panel-default"
+      data-ajax-replace="content/links.html"
+    ></section>
+
+    <footer
+      class="container"
+      data-ajax-replace="content/footer.html"
+      role="footer"
+    ></footer>
 
     <!-- JS from CDN -->
     <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
-    
   </body>
 </html>
