@@ -13,8 +13,18 @@
   </head>
 
   <body vocab="http://schema.org/" typeof="WebPage">
-    <header data-ajax-replace="content/nav.html" role="banner"></header>
-
+    <!-- <header data-ajax-replace="content/nav.html" role="banner"></header> -->
+    <header class="wp-bar" role="banner">
+      <nav
+        role="navigation"
+        id="wb-sm"
+        data-ajax-replace="content/menu-include-en.html"
+        data-trgt="mb-pnl"
+        class="wb-menu"
+        typeof="SiteNavigationElement"
+      >
+      </nav>
+    </header>
     <main property="mainContentOfPage" class="container" id="wb-cont">
       <h2>Welcome to the Peninsula Urban Gardens Society</h2>
       <p>
@@ -37,8 +47,6 @@
         production process.
       </p>
     </main>
-
-
 
     <footer
       id="wb-info"

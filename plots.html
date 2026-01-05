@@ -12,26 +12,38 @@
   </head>
 
   <body vocab="http://schema.org/" typeof="WebPage">
-    <header data-ajax-replace="content/nav.html" role="banner"></header>
-
+    <header class="wp-bar">
+      <nav
+        role="navigation"
+        id="wb-sm"
+        data-ajax-replace="content/menu-include-en.html"
+        data-trgt="mb-pnl"
+        class="wb-menu"
+        typeof="SiteNavigationElement"
+      ></nav>
+    </header>
 
     <main property="mainContentOfPage" class="container" id="wb-cont">
-        <h1>Apply here!</h1>
-        <section class="panel panel-default">
+      <h1>Apply here!</h1>
+      <section class="panel panel-default">
         <p>
-            To apply for a garden plot with the Peninsula Urban Gardens Society (PUGS), please fill out the Google form below. 
-            We will contact you if a plot becomes available.
-        </section>
-        <section id="application">
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScXYhrOyKJOB57iqp5Dp5FwcuzdxllaTGJwQuAMi6myOyTIPA/viewform?embedded=true" width="640" height="1639" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        </section>
+          All plots are currently full. To be added to the waiting list and apply for a garden plot with the Peninsula Urban Gardens Society
+          (PUGS), please fill out <a href="https://forms.gle/7A3jumuPXT5NyBFP8">this Google form</a>. 
+          You may need to enable cookies and have a valid Google account to submit the form.
+        </p>
+        <p>We will contact you if a plot becomes available.</p>
+      </section>
+
     </main>
-    
-    <footer id="wb-info" class="container" data-ajax-replace="content/footer.html" role="contentinfo">
-    </footer>
+
+    <footer
+      id="wb-info"
+      class="container"
+      data-ajax-replace="content/footer.html"
+      role="contentinfo"
+    ></footer>
     <!-- JS from CDN -->
     <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
-    
   </body>
 </html>

@@ -13,8 +13,17 @@
   </head>
 
   <body vocab="http://schema.org/" typeof="WebPage">
-<header data-ajax-replace="content/nav.html"></header>    
-<section class="container my-4" id="wb-cont">
+    <header class="wp-bar">
+      <nav
+        role="navigation"
+        id="wb-sm"
+        data-ajax-replace="content/menu-include-en.html"
+        data-trgt="mb-pnl"
+        class="wb-menu"
+        typeof="SiteNavigationElement"
+      >
+      </nav>
+    </header><section class="container my-4" id="wb-cont">
     <h1>Gardening Guidelines</h1>
 
     <ul class="nav nav-pills nav-stacked">

@@ -12,10 +12,30 @@
   </head>
 
   <body vocab="http://schema.org/" typeof="WebPage">
-    <header data-ajax-replace="content/nav.html" role="banner"></header>
-
+    <header class="wp-bar">
+      <nav
+        role="navigation"
+        id="wb-sm"
+        data-ajax-replace="content/menu-include-en.html"
+        data-trgt="mb-pnl"
+        class="wb-menu"
+        typeof="SiteNavigationElement"
+      >
+      </nav>
+    </header>
 
     <main property="mainContentOfPage" class="container" id="wb-cont">
+        <section id="contact">
+            <h1>About the Peninsula Urban Gardens Society (PUGS)</h1>
+            <p>
+                The Peninsula Urban Gardens Society (PUGS) is a non-profit organization dedicated to promoting urban gardening and sustainable food practices in Halifax, Nova Scotia. Established in 2009, PUGS provides community members with access to garden plots, resources, and educational opportunities to encourage organic gardening and environmental stewardship.
+            </p>
+            <p>
+                Our mission is to foster a sense of community through gardening while promoting healthy living and environmental awareness. We believe that urban gardening can play a vital role in enhancing food security, reducing carbon footprints, and improving overall well-being.
+            </p>
+            <p>
+                For more information or to get involved, please contact us via <a href="mailto:pugorse@gmail.com?subject=Garden">email</a>
+        </section>
         <section id="history" data-ajax-replace="content/history.html"></section>
     </main>
     
